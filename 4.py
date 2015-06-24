@@ -7,3 +7,4 @@ for a in xrange(10,1000):
             print temple, a, b
 
 #906609 913 993
+

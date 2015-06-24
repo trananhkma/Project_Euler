@@ -1,8 +1,9 @@
 sum_square = 0
-sum = 0
+sum_nums = 0
 for i in xrange(1,101):
-    sum_square += i**2
-    sum += i
+    sum_nums += i**2
+    sum_nums += i
 
-square = sum ** 2
+square = sum_nums ** 2
 print square - sum_square
+
